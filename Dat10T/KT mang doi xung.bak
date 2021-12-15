@@ -1,0 +1,19 @@
+Uses Crt;
+Var j,I,k:integer;
+    n:byte;
+    A:array[1..50] of word;
+Begin
+ Clrscr;
+ Writeln('Nhap vao so phan tu n:');readln(n);
+ For i:=1 to n do
+  Begin
+   Writeln('Nhap vao A[',i,']=');
+   Readln(A[i]);
+  end;
+
+ For i:=1 to n div 2 do
+   If a[i]<>a[n-i+1] then
+      writeln('Mang K doi xung') else
+          Writeln('Mang doi xung');
+ Readln
+end.
